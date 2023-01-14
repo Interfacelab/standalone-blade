@@ -35,7 +35,7 @@ class Blade
 
     protected function init()
     {
-        $this->container ??= new Container;
+        $this->container ??= new BladeContainer;
 
         $this->container->singleton('files', fn () => new Filesystem);
         $this->container->singleton('events', fn () => new Dispatcher);

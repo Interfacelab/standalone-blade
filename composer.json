@@ -1,16 +1,21 @@
 {
-    "name": "ryangjchandler/standalone-blade",
+    "name": "ilab/standalone-blade",
     "description": "Use Laravel's Blade templating engine outside of Laravel.",
     "keywords": [
         "ryangjchandler",
         "standalone-blade"
     ],
-    "homepage": "https://github.com/ryangjchandler/standalone-blade",
+    "homepage": "https://github.com/Interfacelab/standalone-blade",
     "license": "MIT",
     "authors": [
         {
             "name": "Ryan Chandler",
             "email": "support@ryangjchandler.co.uk",
+            "role": "Developer"
+        },
+        {
+            "name": "Jon Gilkison",
+            "email": "jon@interfacelab.com",
             "role": "Developer"
         }
     ],
