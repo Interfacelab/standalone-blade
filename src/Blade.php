@@ -63,4 +63,8 @@ class Blade
     {
         return new static($viewPath, $cachePath, $container);
     }
+
+    public function teardown() {
+        $this->container->terminate();
+    }
 }
